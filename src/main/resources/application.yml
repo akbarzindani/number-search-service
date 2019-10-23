@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: number-search-service
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+    
+security: 
+  user:
+    password: capadmin
+    name: capadmin
+    role:
+    - ADMIN
+twilio.accountId: AC1735dbde4e2dccbf236f0df35dbcaf31
+twilio.auth.token: 6acf3350be398ce2fc1ef0dbbbca192e
